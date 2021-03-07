@@ -1,0 +1,17 @@
+.countryContainer{
+    width: 300px;
+    background-color: aqua;
+    border: 1px solid slateblue;
+    border-radius: 20px;
+    padding: 20px;
+    height: 400px;
+}
+.countriesContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.countryContainer img {
+    width: 300px;
+    height:200px;
+}
